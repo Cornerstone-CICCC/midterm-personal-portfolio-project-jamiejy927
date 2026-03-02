@@ -46,7 +46,7 @@ body {
 
 main {
   max-width: 680px;
-  margin: 180px auto;
+  margin: 140px auto;
 }
 
 main h1 {
@@ -93,4 +93,34 @@ main p {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.swiper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 120px auto;
+  position: relative;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  display: block;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #222;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px;
 }
