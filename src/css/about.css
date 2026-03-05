@@ -1,0 +1,32 @@
+.about-page {
+  max-width: 720px;
+  margin: 60px auto;
+}
+
+.about-page h1 {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 22px;
+}
+
+.about-intro {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 70px;
+}
+
+.about-section {
+  margin-bottom: 60px;
+}
+
+.about-section h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+.skill-line {
+  font-size: 18px;
+  color: #555;
+}
