@@ -1,3 +1,39 @@
+/* NAV */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.navbar .buttons {
+  display: flex;
+  gap: 60px;
+}
+
+.navbar .buttons a {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  transition: opacity 0.2s ease, border-color 0.2s ease;
+
+  border-bottom: 1px solid transparent;
+  padding-bottom: 4px;
+}
+
+.navbar .buttons a:hover {
+  opacity: 0.6;
+  border-bottom: 1px solid #222;
+}
+
+.navbar .buttons a.active {
+  border-bottom: 1px solid #222;
+}
+
+.navbar .buttons a:visited {
+  color: #222;
+}
+
 /* SWIPER */
 
 .swiper {
@@ -218,6 +254,7 @@
   opacity: 0.85;
   pointer-events: none;
 }
+
 /* MOBILE */
 
 @media (max-width: 768px) {
